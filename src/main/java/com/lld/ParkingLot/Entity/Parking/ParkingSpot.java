@@ -27,9 +27,6 @@ public class ParkingSpot {
         this.vehicle = vehicle;
     }
 
-    public void vacateSpot(){
-
-    }
     public void park(Vehicle vehicle){
         setVehicle(vehicle);
         isAvailable = false;
